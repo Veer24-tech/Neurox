@@ -1,0 +1,9 @@
+.header-actions{display:flex;align-items:center;gap:8px}
+.text-size-button{height:40px;min-width:40px;background:#fff;border:1px solid #e1e7e0;border-radius:9px;color:#476851;font-weight:600;font-size:15px}
+.text-size-button span{font-size:11px}
+.large-text :is(p,small,strong,button,a){font-size:1.15em}
+.resource-unconfigured{color:#748278}
+.resource-link>a{display:grid;place-items:center;color:#829489;padding:8px}
+.resource-link>a:hover{color:#315e4c}
+.handoff-error{color:#a44e45;font-size:11px;margin:8px 0 0;text-align:right}
+@media(max-width:480px){.header-actions{gap:5px}.text-size-button{height:38px;min-width:36px}.clear-button{font-size:9px;padding:7px}.header-actions .clear-button svg{height:14px;width:14px}.large-text :is(p,small,strong,button,a){font-size:1.1em}}
